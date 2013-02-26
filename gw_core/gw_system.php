@@ -1,0 +1,13 @@
+<?php
+ob_start();
+session_start();
+require_once('gw_config.php');
+require_once('gw_db-class.php');
+require_once('gw_functions.php');
+require_once('gw_notifications.php');
+require_once('gw_variabili.php');
+require_once('gw_users-system.php');
+require_once('gw_users-facebook.php');
+require_once('gw_class.upload.php');
+require_once('gw_menu.php');
+require_once('gw_api.php');
